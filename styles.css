@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  align-items: center;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.nav1 {
+  background-color: white;
+  width: 100%;
+  height: 20%;
+  opacity: 0px;
+}
+
+.nav1 button {
+  position: relative;
+  background-color: hsl(0, 100%, 58%);
+  color: white;
+  border-radius: 0.527vw;
+  border: 0;
+  cursor: pointer;
+  width: 6.727vw;
+  height: 2.71vw;
+  top: -2vw;
+  left: 79.339vw;
+  font-size: 1.2vw;
+  font-weight: 700;
+}
+
+.nav1 img {
+  position: relative;
+  height: 5.113vw;
+  width: 5.113vw;
+  top: 0.403vw;
+  left: 6.339vw;
+}
+
+.nav2 {
+  width: 100%;
+  background-color: #000000;
+  padding: 0.1vw 0.7vw;
+  margin-left: -0.7vw;
+  display: flex;
+}
+
+.nav2 h1 {
+  position: relative;
+  font-family: Eurofighter;
+  font-weight: 400;
+  color: white;
+  width: 14.31vw;
+  height: 4.31vw;
+  top: -0.03vw;
+  left: 4.94vw;
+  gap: 0vw;
+  opacity: 0vw;
+}
+
+.nav2 .span1 {
+  font-family: Eurofighter;
+  font-size: 1.64vw;
+  font-weight: 400;
+  line-height: 1.71vw;
+  text-align: left;
+  color: #c20000;
+}
+
+.nav2 .span2 {
+  font-family: Eurofighter;
+  font-size: 2.46vw;
+  font-weight: 400;
+  line-height: 2.56vw;
+  text-align: left;
+}
+
+.nav2 ul {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  list-style-type: none;
+  width: 37.25vw;
+  height: 2vw;
+  top: 0.45vw;
+  left: 40.44vw;
+  padding: 1.45vw 0.03vw 1.27vw 0vw;
+  gap: 2vw;
+  color: white;
+}
+
+.nav2 li {
+  font-weight: 300;
+  font-size: 1.63vw;
+  line-height: 1.99vw;
+}
+
+.body {
+  position: relative;
+  display: flex;
+}
+
+.body h1 {
+  position: relative;
+  color: black;
+  width: 40.42vw;
+  height: 14.72vw;
+  top: -0.06vw;
+  left: 13.06vw;
+  gap: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 5.3vw;
+}
+
+.body img {
+  position: relative;
+  width: 33.92vw;
+  height: 21.92vw;
+  top: 2.4vw;
+  left: 14.33vw;
+  gap: 0vw;
+  opacity: 0vw;
+  z-index: -1;
+}
+
+.main {
+  width: 100%;
+  background-color: #000000;
+  padding: 0.1vw 0.7vw;
+  margin-left: -0.7vw;
+  display: flex;
+  height: 30vw;
+}
+
+.cards{
+  margin-left: 8vw;
+  display: flex;
+  gap: 3vw;
+}
+
+.card {
+  border-radius: 0.7vw;
+  display: grid;
+  background-color: #6bacff;
+  width: 24.89vw;
+  height: 21.67vw;
+}
+
+.container {
+  border-radius: 0 0 0.7vw 0.7vw;
+  position: relative;
+  display: grid;
+  padding: 0vw;
+  background-color: white;
+  color: black;
+  width: 24.89vw;
+  height: 8.92vw;
+  top: 6.67vw;
+}
+
+.card1 {
+  border-radius: 0.7vw;
+  display: grid;
+  background-color: #FF4D4D;
+  width: 24.89vw;
+  height: 21.67vw;
+}
+
+.container1 {
+  border-radius: 0 0 0.7vw 0.7vw;
+  position: relative;
+  display: grid;
+  padding: 0vw;
+  background-color: white;
+  color: black;
+  width: 24.89vw;
+  height: 8.92vw;
+  top: 6.67vw;
+}
+
+.card2 {
+  border-radius: 0.7vw;
+  display: grid;
+  background-color: #77E7FF;
+  width: 24.89vw;
+  height: 21.67vw;
+}
+
+.container2 {
+  border-radius: 0 0 0.7vw 0.7vw;
+  position: relative;
+  display: grid;
+  padding: 0vw;
+  background-color: white;
+  color: black;
+  width: 24.89vw;
+  height: 8.92vw;
+  top: 6.67vw;
+}
+
+.cards p{
+  padding: 1vw;
+}
